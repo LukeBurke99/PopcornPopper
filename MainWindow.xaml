@@ -1,0 +1,17 @@
+﻿<Window x:Name="PopcornWindow" x:Class="PopcornPopper.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:PopcornPopper"
+        mc:Ignorable="d"
+        Title="Java Updates" Height="450" Width="800" Background="{x:Null}" AllowsTransparency="True" WindowStyle="None" ResizeMode="NoResize" ShowInTaskbar="False" Topmost="True" Focusable="False" IsTabStop="False" Top="0">
+    <Grid>
+        <Canvas Margin="0">
+            <Image x:Name="Image_Popcorn" RenderTransformOrigin="0.5,0.5" HorizontalAlignment="Right" Height="80" Margin="0" VerticalAlignment="Bottom" Width="80" Source="popcorn.png" Canvas.Left="0" Canvas.Top="0"/>
+            <Image x:Name="Image_Popcorn2" RenderTransformOrigin="0.5,0.5" HorizontalAlignment="Right" Height="80" Margin="0" VerticalAlignment="Bottom" Width="80" Source="popcorn.png" Canvas.Left="80" Canvas.Top="0"/>                            
+            <Image x:Name="Image_Popcorn3" RenderTransformOrigin="0.5,0.5" HorizontalAlignment="Right" Height="80" Margin="0" VerticalAlignment="Bottom" Width="80" Source="popcorn.png" Canvas.Left="160" Canvas.Top="0"/>                           
+            <Image x:Name="Image_Popcorn4" RenderTransformOrigin="0.5,0.5" HorizontalAlignment="Right" Height="80" Margin="0" VerticalAlignment="Bottom" Width="80" Source="popcorn.png" Canvas.Left="240" Canvas.Top="0"/>
+        </Canvas>
+    </Grid>
+</Window>
